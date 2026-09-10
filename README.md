@@ -67,27 +67,25 @@ A feature-rich bookmarks plugin for **[JADX](https://github.com/skylot/jadx)** w
 
 ## 📦 Installation
 
-### Option 1: JADX GUI Plugin Manager
-1. Open **JADX-GUI**.
-2. Go to **Plugins** → **Install plugin** (or **Preferences** → **Plugins** → **Install**).
-3. Select the built plugin JAR using the file chooser button, or paste the file path with the `file:` schema prefix:
-   ```text
-   file:/path/to/jadx-bookmarks/build/libs/jadx-bookmarks-1.0.0.jar
-   ```
-4. Click **Install**.
+### Option 1: Install from GitHub (Recommended)
 
-### Option 2: Direct Install Directory
+Install directly using the JADX CLI:
+```bash
+jadx plugins --install "github:0rshemesh:jadx-bookmarks"
+```
+
+### Option 2: JADX GUI Plugin Manager
+1. Download `jadx-bookmarks-1.0.0.jar` from the [Latest Release](https://github.com/0rShemesh/jadx-bookmarks/releases/latest).
+2. Open **JADX-GUI**.
+3. Go to **Plugins** → **Install plugin** (or **Preferences** → **Plugins** → **Install**).
+4. Select the downloaded JAR file and click **Install**.
+
+### Option 3: Manual Installation
 Copy `jadx-bookmarks-1.0.0.jar` into your JADX installed plugins directory:
 ```bash
 cp build/libs/jadx-bookmarks-1.0.0.jar ~/.config/jadx/plugins/installed/jadx-bookmarks.jar
 ```
-
-### Option 3: Dropins Folder
-Copy `jadx-bookmarks-1.0.0.jar` into your JADX dropins directory:
-```bash
-cp build/libs/jadx-bookmarks-1.0.0.jar ~/.config/jadx/plugins/dropins/
-```
-*(Or into `<jadx_install_dir>/plugins/dropins/`)*.
+*(Or into `~/.config/jadx/plugins/dropins/` or `<jadx_install_dir>/plugins/dropins/`)*.
 
 ---
 
@@ -96,8 +94,10 @@ cp build/libs/jadx-bookmarks-1.0.0.jar ~/.config/jadx/plugins/dropins/
 ### Requirements:
 - JDK 11 or higher (Compatible with JDK 11, 17, 21, and 24)
 
-### Build:
+### Clone & Build:
 ```bash
+git clone https://github.com/0rShemesh/jadx-bookmarks.git
+cd jadx-bookmarks
 ./gradlew jar
 ```
 
@@ -110,6 +110,15 @@ build/libs/jadx-bookmarks-1.0.0.jar
 ```bash
 ./gradlew test
 ```
+
+---
+
+## 👤 Author
+
+Created and maintained by **0rshemesh**.
+
+- GitHub: [@0rshemesh](https://github.com/0rShemesh)
+- Repository: [jadx-bookmarks](https://github.com/0rShemesh/jadx-bookmarks)
 
 ---
 
