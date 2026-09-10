@@ -1,5 +1,7 @@
 # JADX Bookmarks Plugin
 
+[![AI Assisted](https://img.shields.io/badge/AI-Assisted-8A2BE2.svg)](https://github.com/0rShemesh/jadx-bookmarks)
+
 A feature-rich bookmarks plugin for **[JADX](https://github.com/skylot/jadx)** with high-resolution full-color emoji markers, editor gutter line tracking icons, quick jump navigation, and persistent project storage.
 
 ---
@@ -119,6 +121,12 @@ Created and maintained by **0rshemesh**.
 
 - GitHub: [@0rshemesh](https://github.com/0rShemesh)
 - Repository: [jadx-bookmarks](https://github.com/0rShemesh/jadx-bookmarks)
+
+---
+
+## 🤖 Acknowledgements
+
+This repository and plugin were developed with AI assistance.
 
 ---
 
