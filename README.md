@@ -12,6 +12,8 @@ A feature-rich bookmarks plugin for **[JADX](https://github.com/skylot/jadx)** w
   - Choose from 17 modern, full-color graphic emoji markers (defaults to ⭐ Star).
   - Editing an existing bookmark pre-fills current text and icon; pressing *"Cancel"* preserves it, while *"OK"* updates it.
 
+  ![Add / Edit Bookmark Dialog](docs/add_comment.png)
+
 - **Editor Gutter Line Markers**:
   - Displays the selected high-resolution color emoji icon directly on the line in the editor gutter.
   - Hovering over a gutter icon displays a tooltip in the format: `Place: Description`.
@@ -31,6 +33,8 @@ A feature-rich bookmarks plugin for **[JADX](https://github.com/skylot/jadx)** w
     - `Jump to bookmark`
   - Table keyboard shortcuts: **`Ins`** (modify), **`Del`** (delete), **`Ctrl+C`** (copy line), **`Enter`** (jump), **`Esc`** (close).
   - **`[ ] keep open`** checkbox keeps the dialog open while jumping between bookmarks.
+
+  ![Address Bookmarks Dialog & Gutter Markers](docs/address_bookmarks.png)
 
 - **17 Full-Color High-Resolution Emoji Markers**:
   1. ⭐ Star emoji - bookmarked (default)
